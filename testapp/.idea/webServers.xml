@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="39c01bd4-0769-404b-a124-d31449fcd20a" name="ubuntu1810">
+        <fileTransfer rootFolder="/home/vagrant/testapp" accessType="SFTP" host="192.168.31.21" port="22" sshConfigId="946a2a7c-0275-479a-bb55-960d7b5acff7" sshConfig="ubuntu1810">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

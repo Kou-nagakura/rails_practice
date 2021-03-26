@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="192.168.31.21" id="946a2a7c-0275-479a-bb55-960d7b5acff7" port="22" customName="ubuntu1810" nameFormat="CUSTOM" username="vagrant">
+        <option name="customName" value="ubuntu1810" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" host="192.168.31.21" id="4d3f08af-94d5-40e2-b067-d8922e15128b" port="22" nameFormat="DESCRIPTIVE" username="vagrant" />
+    </configs>
+  </component>
+</project>

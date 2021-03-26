@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Testapp</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+  <body>
+<header>共通部品です</header>
+
+
+    <%= yield %>
+
+<footer>下の部分の共通部品です</footer>
+
+<p> layouts/application.html.erb より</p>
+
+
+  </body>
+</html>

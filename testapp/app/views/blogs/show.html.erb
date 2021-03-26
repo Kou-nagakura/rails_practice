@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>タイトル</strong>
+  <%= @blog.title %>
+</p>
+
+<p>
+  <strong>本文</strong>
+  <%= @blog.content %>
+</p>
+
+<p>
+  <strong>投稿者名</strong>
+  <%= @blog.name %>
+</p>
+
+<%= link_to 'Edit', edit_blog_path(@blog) %> |
+<%= link_to 'Back', blogs_path %>
